@@ -1,0 +1,10 @@
+version: '3'
+services:
+  node-server:
+    container_name: numberstation
+    build: .
+    image: numberstation
+    ports:
+      - '3000:3000'
+    volumes:
+      - ./site:/var/www/site
