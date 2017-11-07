@@ -1,0 +1,17 @@
+
+body {
+    background: #cec6bd;
+    overflow: scroll;
+}
+
+.container {
+    padding: 2em;
+    margin-left: auto;
+    margin-right: auto;
+    height: auto;
+}
+
+.postcard {
+    width: 70em;
+    margin: 1em;
+}
