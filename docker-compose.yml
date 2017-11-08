@@ -5,6 +5,6 @@ services:
     build: .
     image: numberstation
     ports:
-      - '3000:3000'
+      - '3100:80'
     volumes:
       - ./site:/var/www/site
