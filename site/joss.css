@@ -1,0 +1,12 @@
+
+body {
+    padding: 1em;
+    background: #cec6bd;
+}
+
+.message {
+    background: rgb(235, 233, 223);
+    padding: 1.5em;
+    margin-top: 1em;
+    width: 40em;
+}

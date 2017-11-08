@@ -1,0 +1,16 @@
+
+body {
+    background: #cec6bd;
+}
+
+.container {
+    padding: 2em;
+    margin-left: auto;
+    margin-right: auto;
+    height: auto;
+}
+
+.postcard {
+    width: 70em;
+    margin: 1em;
+}
