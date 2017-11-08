@@ -15,7 +15,6 @@ var message = function(p) {
     lineHeight = (height/2)*0.9;
 
     var audioPath = messageElement.getAttribute("audiopath");
-    //fetch("https://upload.wikimedia.org/wikipedia/commons/b/bf/Cherry_Ripe_%28number_station%29.ogg")
     fetch(audioPath)
       .then(response => response.arrayBuffer())
       .then(arrayBuffer => audioCtx.decodeAudioData(arrayBuffer))
