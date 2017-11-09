@@ -1,0 +1,25 @@
+html, body {
+  margin: 0;
+  background: white;
+  overflow: hidden;
+  width: 100%;
+  height: 100%;
+  display: flex;
+  flex-flow: column;
+  justify-content: center;
+  align-items: center;
+}
+
+ul {
+    list-style-type: square;
+}
+
+.songs {
+  padding: 1em;
+  background: rgb(235, 233, 223);
+  box-shadow: 2px 2px 2px #888888;
+}
+
+.songs ul {
+    margin-right: 1.5em;
+}

@@ -1,0 +1,28 @@
+
+body {
+    padding: 1em;
+    background: #cec6bd;
+}
+
+.container {
+    position: relative;
+}
+
+.paper {
+    width: 60em;
+}
+
+.overlay {
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 0em; /* What?! */
+}
+
+.message {
+    position: relative;
+    background: rgb(235, 233, 223);
+    padding: 1.5em;
+    margin-top: 1em;
+    width: 40em;
+}

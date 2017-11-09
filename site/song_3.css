@@ -1,0 +1,26 @@
+html, body {
+  margin: 0;
+  background: white;
+  overflow: hidden;
+  position: absolute;
+  width: 100%;
+  height: 100%;
+  display: flex;
+  flex-flow: column;
+  justify-content: center;
+  align-items: center;
+}
+
+#container {
+  padding: 20px;
+}
+
+#message {
+  width: 40em;
+  height: 20em;
+}
+
+#lyrics {
+    width: 20em;
+    padding: 3em;
+}
