@@ -96,7 +96,8 @@ var app = angular.module("ResumeApp", []);
 
 app.service("resumeService", function($http, $q) {
 	var deferred = $q.defer();
-	$http.get('resources/json/resume-data.json').then(function(data) {
+    var resumeData = document.getElementById("mainContainer").getAttribute("resume-data");
+	$http.get(resumeData).then(function(data) {
 		deferred.resolve(data);
 	});
 

@@ -1,10 +1,22 @@
 version: '2'
 services:
-  node-server:
-    container_name: numberstation
+  static-host:
+    container_name: numberstation_static_host
     build: .
-    image: numberstation
+    image: numberstation_static_host
+    depends_on:
+      - service
     ports:
       - '3100:80'
     volumes:
       - ./site:/var/www/site
+  service:
+    container_name: numberstation_service
+    build: backend/.
+    #command: node_modules/.bin/nodemon --inspect=0.0.0.0:5858 service.js
+    command: node service.js
+    ports:
+      - '80:80'
+    volumes:
+      - ./backend:/home/node/numberspy
+      - /home/node/numberspy/node_modules

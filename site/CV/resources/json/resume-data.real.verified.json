@@ -1,0 +1,129 @@
+{
+  "basics": {
+    "name": "David Jones",
+    "label": "Infiltrator",
+    "picture": "",
+    "contact": [
+      {
+        "type": "email",
+        "linkValue": "mailto:david.jones@nibureau.com",
+        "value": "david.jones@nibureau.com"
+      },
+      {
+        "type": "phone",
+        "linkValue": "tel:+43-700-888-1492",
+        "value": "(700) 888-1492"
+      },
+      {
+        "type": "website",
+        "linkValue": "/nibureau.html",
+        "value": "Networked Investigations Bureau"
+      }
+    ],
+    "summary": "<p>Born and raised Breucian in the capital of Sensa I've always had a penchant for creative and social manipulation. Over the years I focused that creativity into graphical artistry and music, leaving my social skills to the side. But under the right guidance I was able to combine my two sides into one. I excelled during my espionage training, having finally found my calling. I like being bold in my creations... and in my missions. Whatever I do I strive towards the goal of leaving a lasting impression. Preferably the one I want you to have.</p><p>A good challenge is always preferred and so I've jumped straight into the toughest of assignments. And the future looks bright with lots of new information to gather and tasks to solve.</p>",
+    "location": {
+      "address": "Outcross Road 2",
+      "postalCode": "28154",
+      "city": "Sensa",
+      "countryCode": "BA",
+      "region": "Moine"
+    }
+  },
+  "education": [
+    {
+      "institution": "NI Bureau",
+      "area": "Espionage",
+      "studyType": "Masters",
+      "focus": "Graphical and Interactive Design",
+      "start": "2011",
+      "end": "2014"
+    },
+    {
+      "institution": "University of Sensa",
+      "area": "Art",
+      "studyType": "Associates",
+      "focus": "Graphic Design & Propaganda",
+      "start": "2009",
+      "end": "2011"
+    }
+  ],
+  "languages": [
+    {
+      "name": "English",
+      "level": "Native speaker"
+    },
+    {
+      "name": "Slovos",
+      "level": "Native speaker"
+    }
+  ],
+  "experience": [
+    {
+      "company": "Situation Graphical",
+      "position": "Spy, Layouter & Illustrator",
+      "location": "Levendoll, Deslast (Avengaal)",
+      "startDate": "2015",
+      "summary": "Creating illustrations and doing layout while also gathering information and passing it back to the NI Bureau. Working on getting closer to more high-ranking figures to both get information faster as well as direct desicions to things that benefit Breucia. Requires constant vigilance and a nimble mind."
+    },
+    {
+      "company": "Creative Bears Design",
+      "position": "Spy, Illustrator",
+      "location": "Sensa, Armorell (Breucia)",
+      "startDate": "2014",
+      "endDate": "2014",
+      "summary": "Practical spy-training in Breucia, spying on suspect company while doing illustrations for them. Gave a lot of experience while still being in a safe enough environment."
+    }
+  ],
+  "projects": [
+    {
+      "name": "Extraction",
+      "url": "/",
+      "summary": "You're close, get me out!"
+    },
+    {
+      "name": "Mail Intercepto",
+      "url": "/intercepto.html",
+      "summary": "Software for intercepting and decrypting email"
+    },
+    {
+      "name": "MicroPhoto",
+      "url": "/microphoto.html",
+      "summary": "Designed a small camera that is blends in with the environment"
+    },
+    {
+      "name": "A Long Way From Kensus",
+      "url": "/longwayfromkensus.html",
+      "summary": "Posters and brochures for a university play about a man away from home" 
+    }
+  ],
+  "skills": [
+    {
+      "name": "message encrypTion",
+      "level": "98%"
+    },
+    {
+      "name": "netVork sniffer",
+      "level": "95%"
+    },
+    {
+      "name": "photospoT",
+      "level": "80%"
+    },
+    {
+      "name": "Igilayout",
+      "level": "90%"
+    },
+    {
+      "name": "html & css (Zass)",
+      "level": "60%"
+    },
+    {
+      "name": "powErshot",
+      "level": "50%"
+    },
+    {
+      "name": "reaKtive studio",
+      "level": "70%"
+    }
+  ]
+}

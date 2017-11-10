@@ -1,0 +1,133 @@
+{
+  "basics": {
+    "name": "John Quiller",
+    "label": "Illustrator & Musician",
+    "picture": "",
+    "contact": [
+      {
+        "type": "email",
+        "linkValue": "mailto:john.quiller@sitgraph.com",
+        "value": "john.quiller@sitgraph.com"
+      },
+      {
+        "type": "phone",
+        "linkValue": "tel:+42-640-217-8883",
+        "value": "(640) 217-8883"
+      },
+      {
+        "type": "website",
+        "linkValue": "/situationgraphical.html",
+        "value": "Situation Graphical"
+      }
+    ],
+    "summary": "<p>Born and raised Avengaali in the small town of Hawking I've always had a penchant for the creative. Over the years I focused that creativity into graphical artistry and music. A long time was spent honing those skills. And I like being bold in my creations, pushing the envelope and trying new things. Whatever you make it should have the goal of leaving a lasting impression, even if it is just a small ad on the bottom of the page.</p><p>I like a good challenge and try to not get too comfortable in my work so over the years I've had a wide array of different contracts. Music may have been where I started but even if music may not be my main focus during work I still try to keep my skills refined during my free time. And the future looks bright with new hard tasks to wrestle with and solve.</p>",
+    "location": {
+      "address": "Gallstreet 8",
+      "postalCode": "5132",
+      "city": "Levendoll",
+      "countryCode": "AV",
+      "region": "Deslast"
+    }
+  },
+  "education": [
+    {
+      "institution": "Deslast State University",
+      "area": "Arts Technology",
+      "studyType": "Bachelor",
+      "focus": "Graphical and Interactive Design",
+      "start": "2011",
+      "end": "2012"
+    },
+    {
+      "institution": "Elgin Community College",
+      "area": "Art",
+      "studyType": "Associates",
+      "focus": "Graphic Design",
+      "start": "2009",
+      "end": "2011"
+    }
+  ],
+  "languages": [
+    {
+      "name": "English",
+      "level": "Native speaker"
+    }
+  ],
+  "experience": [
+    {
+      "company": "Situation Graphical",
+      "position": "Layouter & Illustrator",
+      "location": "Levendoll, Deslast",
+      "startDate": "2015",
+      "summary": "Creating illustrations and doing layout for ads, pamphlets, etc. Done work for the state, ElectroNics United, DrillDen Inc and more. Worked closely with customers, empowering them to make decisions that lends themselves to great graphical designs. And doing this in a timely and cost-efficient manner."
+    },
+    {
+      "company": "Interface Kings",
+      "position": "UI Designer",
+      "location": "Levendoll, Deslast",
+      "startDate": "2014",
+      "endDate": "2015",
+      "summary": "Designing user interfaces for breaking edge web-applications in economics and industry. High-traffic applications that require efficient and easy to use solutions. Often shorter prototype contracts requiring a fast turnaround yet without a lack in quality."
+    },
+    {
+      "company": "Aisle Rocket Studios",
+      "position": "Illustrator",
+      "location": "Palatine, Hawking",
+      "startDate": "2013",
+      "endDate": "2014",
+      "summary": "Drawing artwork for childrens books in a style that both delights and intrigues the child. Helped with some layout and formatting as well. Including work with larger books with popup art with a 3D design."
+    },
+    {
+      "company": "Full Tones",
+      "position": "Musician",
+      "location": "Palatine, Hawking",
+      "startDate": "2011",
+      "endDate": "2014",
+      "summary": "Part-time work creating musical scores for films, TV as well as some small work for radio. Worked with both independent filmmakers as well as larger more established filmstudios. Had access to a full musical studio with incredibly modern setups and the best 16 instruments with mixing help from the studio."
+    }
+  ],
+  "projects": [
+    {
+      "name": "Underground Café",
+      "url": "/underground.html",
+      "summary": "Creating posters for promoting indie musicians"
+    },
+    {
+      "name": "The Unknown Artist",
+      "url": "/unknownartist.html",
+      "summary": "Brochures and posters for an art-installation showing art from artists that have been lost and forgotten"
+    },
+    {
+      "name": "The Long Goodbye",
+      "url": "/thelonggoodbye.html",
+      "summary": "Music and sound effects for an independent social thriller film" 
+    },
+    {
+      "name": "Infinite",
+      "url": "/infinite.html",
+      "summary": "Solo album with relaxing lounge-style electronic music" 
+    }
+  ],
+  "skills": [
+    {
+      "name": "PhotoSpot",
+      "level": "98%"
+    },
+    {
+      "name": "IgiLayout",
+      "level": "95%"
+    },
+    {
+      "name": "HTML & CSS (Sass)",
+      "level": "50%"
+    },
+    {
+      "name": "PowerShot",
+      "level": "60%"
+    },
+    {
+      "name": "Reactive Studio",
+      "level": "90%"
+    }
+  ]
+}
