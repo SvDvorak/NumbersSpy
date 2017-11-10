@@ -14,7 +14,7 @@ angular.module("LoginApp", [])
             name: $scope.name,
             pass: $scope.pass
         };
-        $http.post("http://localhost:3100/service/login", data)
+        $http.post("/service/login", data)
         .success((data, status, headers, config) => {
             $scope.incorrectLogin = false;
             window.location.replace(data);

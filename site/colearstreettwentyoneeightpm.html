@@ -1,18 +1,38 @@
-<html>
+<html data-ng-app="ExtractionApp">
     <head>
-        <link rel="stylesheet" href="extract.css" type="text/css" />
+        <script type="text/javascript" src="cv/angular.min.js"></script>
+        <script type="text/javascript" src="cv/angular-animate.min.js"></script>
+        <script type="text/javascript" src="colearstreettwentyoneeightpm.js"></script>
+        <link rel="stylesheet" href="colearstreettwentyoneeightpm.css" type="text/css" />
     </head>
-    <body>
-        <p>EXTRACTION POINT</br>
-        Latitude: 42.961783 | Longitude: -33.346939
-        </p>
-        <p>
-            With whom do you align?
-        </p>
-        <div>
-            <a class="button" href="choice_avengaal.html">Avengaal</a>
-            <a class="button" href="choice_breucia.html">Breucia</a>
-            <a class="button" href="choice_slokos.html">Greater Slokos</a>
+    <body data-ng-controller="ExtractionCtrl" ng-cloak>
+        <div class="extraction infobox">
+            <h3>RENDEZVOUS POINT CONFIRMED</h3>
+            <p>David Jones (aka John Quiller)<br>
+            Colear Street 21<br>
+            Levendoll, Avengaal<br>
+            8 PM</p>
+            <p>Agents are ready to move.</p>
+        </div>
+        <div class="chooseAlignment infobox" ng-show="hasRetrievedData && !hasChosen">
+            <h3>WITH WHOM DO YOU ALIGN?</h3>
+            <p>(you can only pick once)</p>
+            <div class="choices">
+                <a class="button" ng-click="makeChoice(1)">Breucia</a>
+                <a class="button" ng-click="makeChoice(2)">Avengaal</a>
+                <a class="button" ng-click="makeChoice(3)">Greater Slokos</a>
+            </div>
+        </div>
+        <div id="response" class="infobox" ng-show="hasRetrievedData && hasChosen">
+            Response-content
+        </div>
+        <div class="gifts infobox" ng-show="hasRetrievedData && hasChosen">
+            <h3>SUCCESS</h3>
+            <p>Excellent work agent. As thanks for your exceptional service you have been awarded the latest and greatest in code-cracking equipment. Enjoy.</p>
+            <div>
+                <img src="keyboard_kb216.png" />
+                <img src="mousepad_alioth_large.png" />
+            </div>
         </div>
     </body>
 </html>

@@ -1,0 +1,60 @@
+[ng\:cloak], [ng-cloak], [data-ng-cloak], [x-ng-cloak], .ng-cloak, .x-ng-cloak {
+  display: none !important;
+}
+
+body {
+    background: #cec6bd;
+    padding: 1em;
+    display: flex;
+    flex-flow: column;
+    align-items: center;
+}
+
+.infobox {
+  margin: 1em;
+  padding: 2em;
+  background: rgb(235, 233, 223);
+  box-shadow: 2px 2px 2px #888888;
+  min-width: 20em;
+}
+
+.infobox.ng-enter {
+  opacity: 1;
+}
+.infobox.ng-hide {
+  opacity: 0;
+}
+.infobox.ng-hide-add,
+.infobox.ng-hide-remove {
+  transition: all linear 0.5s;
+}
+.gifts.ng-hide-remove {
+  transition-delay: 3000ms;
+}
+
+a.button {
+    -webkit-appearance: button;
+    -moz-appearance: button;
+    appearance: button;
+
+    text-decoration: none;
+    color: initial;
+    display: inline;
+    padding: 8px;
+}
+
+.choices a {
+    font-weight: bold;
+    margin-left: 0.2em;
+    margin-right: 0.2em;
+}
+
+.gifts {
+    width: 30em;
+    display: flex;
+    flex-flow: column;
+}
+
+.gifts img {
+    width: 100%;
+}
