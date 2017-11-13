@@ -13,10 +13,9 @@ services:
   service:
     container_name: numberstation_service
     build: backend/.
-    #command: node_modules/.bin/nodemon --inspect=0.0.0.0:5858 service.js
     command: node service.js
     ports:
-      - '80:80'
+      - '3101:80'
     volumes:
       - ./backend:/home/node/numberspy
       - /home/node/numberspy/node_modules
